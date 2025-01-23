@@ -1,0 +1,23 @@
+{
+  "name": "justinbakker/ji-document-tools",
+  "description": "A client for Just ICT Document Tools API",
+  "version": "1.0.0",
+  "type": "library",
+  "time": "2025-01-23 09:50:00",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Just ICT B.V.",
+      "email": "info@just-ict.nl",
+      "homepage": "https://www.just-ict.nl/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@just-ict.nl"
+  },
+  "require": {
+    "ext-curl": "*",
+    "ext-fileinfo": "*"
+  }
+}
