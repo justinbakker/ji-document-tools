@@ -52,7 +52,7 @@ class DocumentToolsClient
      * @param mixed $payload The data payload to send with the request.
      * @return false|DocumentToolsResponse Returns a DocumentToolsResponse object if successful, false otherwise.
      */
-    public function request(string $path, string $method = 'GET', $headers = [], $payload = null): false|DocumentToolsResponse
+    public function request(string $path, string $method = 'GET', array $headers = [],string $payload = null): false|DocumentToolsResponse
     {
         try {
             if (!array_key_exists('Content-Type', $headers)) $headers['Content-Type'] = 'application/json';
