@@ -1,5 +1,5 @@
 <?php
-
+namespace DocumentTools;
 /**
  * Class DocumentToolsResponse
  */

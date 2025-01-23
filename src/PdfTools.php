@@ -1,5 +1,5 @@
 <?php
-
+namespace DocumentTools;
 class PdfTools
 {
     private DocumentToolsClient $client;
