@@ -1,9 +1,9 @@
 {
   "name": "justict/document-tools",
   "description": "A client for Just ICT Document Tools API",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "library",
-  "time": "2025-01-23 09:50:00",
+  "time": "2025-01-24 13:25:00",
   "license": "proprietary",
   "authors": [
     {
