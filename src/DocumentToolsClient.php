@@ -66,9 +66,10 @@ class DocumentToolsClient
             ///
             /// Add the key
             ///
-            if(!array_key_exists('X-Auth-Token', $headers)){
-                $headers['X-Auth-Token'] = $this->key;
-            }
+            //if(!array_key_exists('X-Auth-Token', $headers)){
+                //$headers['X-Auth-Token'] = $this->key;
+                $headers[] = 'X-Auth-Token: ' . $this->key;
+            //}
 
             curl_setopt($ch, CURLOPT_HTTPHEADER, $headers); // Inject the token into the header
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
