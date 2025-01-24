@@ -1,5 +1,8 @@
 <?php
 namespace DocumentTools;
+use Exception;
+use stdClass;
+
 class PdfTools
 {
     private DocumentToolsClient $client;
